@@ -1,0 +1,17 @@
+version = 1
+
+test_patterns = ["/tests/**.js"]
+
+exclude_patterns = [
+    "/dist/",
+    "/examples/",
+    "/lang/",
+    "/vendors/"
+]
+
+[[analyzers]]
+name = "javascript"
+enabled = true
+
+  [analyzers.meta]
+  environment = ["browser"]
