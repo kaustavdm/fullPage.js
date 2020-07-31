@@ -3,10 +3,10 @@ version = 1
 test_patterns = ["/tests/**.js"]
 
 exclude_patterns = [
-    "/dist/",
-    "/examples/",
-    "/lang/",
-    "/vendors/"
+    "/dist/**",
+    "/examples/**",
+    "/lang/**",
+    "/vendors/**"
 ]
 
 [[analyzers]]
